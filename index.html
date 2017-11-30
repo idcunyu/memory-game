@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>记忆游戏（Memory Game）</title>
+  <meta name="description" content="memory,game,记忆游戏,游戏">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <h1>记 忆 游 戏</h1>
+    </header>
+
+    <!-- 计分，重置栏 -->
+    <section class="score-panel">
+      <ul class="stars">
+        <li><i class="fa fa-star"></i></li>
+        <li><i class="fa fa-star"></i></li>
+        <li><i class="fa fa-star"></i></li>
+      </ul>
+
+      <!-- 计分 -->
+      <span class="moves-des">步数：<span class="moves">0</span></span>
+
+      <!-- 计时 -->
+      <span class="seconds-des">时间(s)：<span class="seconds">0</span></span>
+
+      <!-- 重置 -->
+      <div class="restart">
+        <i class="fa fa-repeat"></i>
+      </div>
+    </section>
+
+    <!-- 游戏主体界面 -->
+    <ul class="deck">
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+      <li class="card">
+        <i class="fa"></i>
+      </li>
+    </ul>
+
+    <!-- 显示最终得分界面 -->
+    <div class="finalShow">
+      <ul class="stars">
+        <li><i class="fa fa-star"></i></li>
+        <li><i class="fa fa-star"></i></li>
+        <li><i class="fa fa-star"></i></li>
+      </ul>
+      <p>Congratulation!</p>
+      <p>共用了&nbsp;&nbsp;&nbsp;<span class="moves">0</span>&nbsp;&nbsp;&nbsp;步，共用时&nbsp;&nbsp;&nbsp;<span class="seconds">0</span>&nbsp;&nbsp;&nbsp;秒</p>
+      <button class="play-again">再玩一次</button>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
