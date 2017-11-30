@@ -1,25 +1,37 @@
-<<<<<<< HEAD
-# my-fend-project-one-memory-game
 Udacity前端进阶纳米学位，项目1，记忆游戏
 =======
-# Memory Game Project
+# Memory Game Project（记忆游戏项目）
 
-## Table of Contents
+## <i class="icon-list"></i> 本页索引
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [快速游戏](#快速游戏)
+* [游戏介绍](#游戏介绍)
+* [得分规则](#得分规则)
 
-## Instructions
+## 快速游戏
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+[记忆游戏（点击进入游戏页面）](https://sansregret.github.io/udacityproject1/index)
 
-To get started, open `js/app.js` and start building out the app's functionality
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## 游戏介绍
 
-## Contributing
+本项目是一款考验记忆小游戏，简单耐玩。
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+游戏中总共有8组分散的卡片，共16张，每局游戏开始或restart之后，卡片位置洗牌（每一局都不一样）；当开始点击卡片时，视为开始本局游戏，开始计时、计步数（2次点击为1步）；需要注意的是，影响最终成绩（星星数量）的只有步数，计时仅做参考。
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
->>>>>>> 1.0.1
+当两次点开的卡片不匹配时，卡片只显示一会儿，然后翻转隐藏；当点开的卡片匹配后，卡片变为显示状态。
+
+当八组卡片全部匹配后，停止计时、计步，得出本局成绩并弹出成绩页面。
+
+
+## 得分规则
+
+| 成绩        | 步数   |
+| :-----:   | :---:  |
+| ★★★     | 14以下(不含14) |
+| ★★       |   14~19   |
+| ★        |   19以上(不含19)   |
+
+<i class="icon-pencil"></i> 作者 [@sansregret](https://github.com/sansregret)
+
+>>>>>>> 当前版本 1.1.0
