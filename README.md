@@ -1,4 +1,4 @@
-Udacity前端进阶纳米学位，项目1，记忆游戏
+Udacity~前端进阶纳米学位，项目1，记忆游戏
 =======
 # Memory Game Project（记忆游戏项目）
 
