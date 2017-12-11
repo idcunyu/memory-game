@@ -10,7 +10,7 @@ Udacity前端进阶纳米学位，项目1，记忆游戏
 
 ## 快速游戏
 
-[记忆游戏（点击进入游戏页面）](https://sansregret.github.io/udacityproject1/index)
+[记忆游戏（点击进入游戏页面）](https://sansregret.github.io/udacity/project-one/index)
 
 
 ## 游戏介绍
