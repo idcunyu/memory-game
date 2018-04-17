@@ -10,7 +10,7 @@
 
 ## 快速游戏
 
-[记忆游戏（点击进入游戏页面）](https://sansregret.github.io/udacity/project-one/index)
+[记忆游戏（点击进入游戏页面）](https://www.vernonn.com/udacity/project-one/index)
 
 
 ## 游戏介绍
