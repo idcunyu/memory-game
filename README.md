@@ -2,7 +2,7 @@
 =======
 # Memory Game Project（记忆游戏项目）
 
-## <i class="icon-list"></i> 本页索引
+## <i class="icon-list"></i> 索引
 
 * [快速游戏](#快速游戏)
 * [游戏介绍](#游戏介绍)
