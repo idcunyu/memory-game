@@ -1,6 +1,5 @@
 记忆游戏
 =======
-# Memory Game Project（记忆游戏项目）
 
 ## <i class="icon-list"></i> 索引
 
